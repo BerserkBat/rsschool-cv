@@ -1,58 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
     <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <script src="https://kit.fontawesome.com/8fe1c1b940.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div id="main-wrapper">
 
-        <header></header>
+        <header>
+            <div id="header-flex">
+                <div id="photo"><img src="001.jpg" alt="My avatar"/></div>
+                <h1>Alessya Tkachenko</h1>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#contacts">About me</a></li>
+                <li><a href="#projects">My projects and code</a></li>
+                <li><a href="#footer">Useful links</a></li>
+            </ul>
+        </nav>
+
         <main>
-            <section>
-                <h3>Contacts</h3>
+            <section id="contacts">
+                <h2>Contacts</h2>
                 <ul>
                     <li>e-mail: tkachenko.alessya@gmail.com</li>
-                    <li>phone: +7 777 0000000</li>
+                    <li>phone: +7 777 5685941</li>
                 </ul>
 
             </section>
 
-            <section>
-                <h3>Goals and priorities</h3>
+            <section id="goals">
+                <h2>Goals and priorities</h2>
                     <p>Some nice words about my desire to make the world around me better and my
-                        constant desire to learn something new</p>
+                        constant desire to learn something new. And some lorem ipsum text to make
+                        this section look more sophisticated.
+                        Quisque tempor nec urna et eleifend. Etiam sollicitudin vehicula nibh,
+                        eget sodales metus mollis vel. Integer facilisis auctor purus ac placerat.
+                        Suspendisse nec nisl justo. Praesent ultrices condimentum luctus. Nullam justo
+                        justo, rhoncus vitae est sit amet, maximus convallis urna. Sed vulputate turpis
+                        ut quam ultrices, sollicitudin lobortis nibh iaculis. Cras in nisi lobortis,
+                        efficitur ante non, interdum lacus. Quisque congue tincidunt enim, at accumsan
+                        eros rhoncus at. Etiam ornare augue felis, et congue arcu posuere nec. Phasellus
+                        quis congue justo, sed laoreet purus. Sed interdum est ac ante finibus fermentum.
+                        Sed sed imperdiet mauris, id maximus nibh.
 
+                    </p>
             </section>
 
-            <section>
-                <h3>Skills</h3>
+            <section id="skills">
+                <h2>Skills</h2>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git/GitHub</li>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js-square"></i> JavaScript</li>
+                    <li><i class="fab fa-git-alt"></i> Git/GitHub</li>
                 </ul>
             </section>
 
-            <section>
-                <h3>My code</h3>
-                <code>
-                    function greet() { </br>
-                    return "hello world!"; </br>
-                    }
-                </code>
+            <section id="projects">
+                <h2>My code</h2>
+                <p>Wonderful example of my js code:</p>
+                <pre><code>
+    function greet() { <br>
+         return "hello world!"; <br>
+    }
+                </code></pre>
             </section>
 
             <section>
-                <h3>Experience</h3>
+                <h2>My Projects</h2>
+                <p>My projects on <a href="https://codepen.io/">codepen.io</a>:</p>
+                <ul>
+                    <li>
+                        <a href="https://codepen.io/Patient_porcupine/full/OJRJbXa">The snake game</a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/Patient_porcupine/full/RwROMpj">Connect four</a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/Patient_porcupine/full/VwvmEpe">Whack a mole!</a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/Patient_porcupine/full/JaqRLE">MathJax Documentation Page</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="exp">
+                <h2>Experience</h2>
+                <div>Since 2013 - Researcher at Fessenkov Astrophysical Institute</div>
 
             </section>
 
-            <section>
-                <h3>Education</h3>
+            <section id="education">
+                <h2>Education</h2>
                     <ul>
                         <li>
                             Al-Farabi Kazakh National University, Ph.D., Nuclear physics
@@ -67,14 +114,21 @@
             </section>
 
             <section>
-                <h3>Languages</h3>
+                <h2>Languages</h2>
                     <ul>
                         <li>English (B2)</li>
                         <li>Russian (Native)</li>
                     </ul>
             </section>
         </main>
-        <footer></footer>
+
+        <footer id="footer">
+            <div class="footer-wrap">
+                <a class="footer-item" href="https://github.com/BerserkBat"><i class="fab fa-github-square"></i>  My github</a>
+                <a class="footer-item" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School Logo"/></a>
+                <p class="footer-item" id="year">2022</p>
+            </div>
+        </footer>
 
     </div>
 
