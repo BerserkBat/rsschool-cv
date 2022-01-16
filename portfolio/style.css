@@ -50,7 +50,7 @@ header{
 }
 #header-logo{
     background-size: cover;
-    background: url("imgs/logo1.png") no-repeat center;
+    background: url("imgs/logo.svg") no-repeat center;
     width: 50px;
     height: 50px;
     margin: 20px 20px;
@@ -228,19 +228,19 @@ h2{
 }
 
 #skill-1{
-    background: url("imgs/camera1.png") center no-repeat;
+    background: url("imgs/camera1.svg") center no-repeat;
 }
 
 #skill-2{
-    background: url("imgs/video1.png") center no-repeat;
+    background: url("imgs/video1.svg") center no-repeat;
 }
 
 #skill-3{
-    background: url("imgs/image1.png") center no-repeat;
+    background: url("imgs/image1.svg") center no-repeat;
 }
 
 #skill-4{
-    background: url("imgs/mic1.png") center no-repeat;
+    background: url("imgs/mic1.svg") center no-repeat;
 }
 
 .skill-item-title{
@@ -504,6 +504,3 @@ footer a:hover{
 #twitter{
     background: url("imgs/tw1.svg") no-repeat center;
 }
-
-
-
