@@ -4,7 +4,7 @@
 
 ### Contacts: 
 - e-mail: tkachenko.alessya@gmail.com
-- Phone number: +7 777 3938317
+- Phone number: +7 777 0000000
 
 ### My goals and priorities
 Something inspiring will be here...
@@ -32,11 +32,8 @@ Integer blandit nisl a nunc tincidunt facilisis.
 Since 2013 Researcher at Fessenkov Astrophysical Institute
 
 ### Education
-1. 2010-2014 Al-Farabi Kazakh National University, Bachelor of Natural Sciences, Physics 
-2. 2014-2016 Al-Farabi Kazakh National University, Master of Natural Sciences, Nuclear physics 
-3. 2015 ICRANet (Pescara, Italy), Internship
-4. 2016-2019 Al-Farabi Kazakh National University, Ph.D., Nuclear physics 
-5. 2019 CUNY (NY, USA), Internship
+4. Al-Farabi Kazakh National University, Ph.D., Nuclear physics 
+5. FreeCodeCamp
 6. 2022- RS School, Time to try something new
 
 ### Languages
