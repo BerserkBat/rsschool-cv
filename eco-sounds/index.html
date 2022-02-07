@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco-sounds</title>
+  <link href="fonts-awesome/css/all.css" rel="stylesheet">
+  <link href="style.css" media="all" rel="stylesheet" type="text/css"/>
+
+  <link rel="preload" href="imgs/day-0.jpg" as="image" />
+  <link rel="preload" href="imgs/day-1.jpg" as="image" />
+  <link rel="preload" href="imgs/day-2.jpg" as="image" />
+  <link rel="preload" href="imgs/day-3.jpg" as="image" />
+  <link rel="preload" href="imgs/day-4.jpg" as="image" />
+  <link rel="preload" href="imgs/day-5.jpg" as="image" />
+  <link rel="preload" href="imgs/day-6.jpg" as="image" />
+  <link rel="preload" href="imgs/day-7.jpg" as="image" />
+  <link rel="preload" href="imgs/day-8.jpg" as="image" />
+  <link rel="preload" href="imgs/day-9.jpg" as="image" />
+
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div id="choose-options-container">
+
+        <div id="day-night">
+          <i id="day-option" class="fas fa-sun button small day active" onclick="dayNight()"></i>
+          <i id="night-option" class="fas fa-moon button small night hidden" onclick="dayNight()"></i>
+        </div>
+        <div id="random" class="button" onclick="randomSound()">Случайные звуки</div>
+    </div>
+
+    <div id="animals-container">
+      <div id="0" class="button day sound" onclick='playAudio("day",this.id)'>Дрозд</div>
+      <div id="1" class="button day sound" onclick='playAudio("day",this.id)'>Соловей</div>
+      <div id="2" class="button day sound" onclick='playAudio("day",this.id)'>Зарянка</div>
+      <div id="3" class="button day sound" onclick='playAudio("day",this.id)'>Жаворонок</div>
+      <div id="4" class="button day sound" onclick='playAudio("day",this.id)'>Славка</div>
+      <div id="5" class="button night sound hidden" onclick='playAudio("night",this.id)'>Енот</div>
+      <div id="6" class="button night sound hidden" onclick='playAudio("night",this.id)'>Филин</div>
+      <div id="7" class="button night sound hidden" onclick='playAudio("night",this.id)'>Летучая мышь</div>
+      <div id="8" class="button night sound hidden" onclick='playAudio("night",this.id)'>Неясыть</div>
+      <div id="9" class="button night sound hidden" onclick='playAudio("night",this.id)'>Волк</div>
+    </div>
+  </header>
+  <main id="main" class="">
+    <div id="start-btn" class="button" onclick="playPause()">
+      <i id="play" class="far fa-play-circle control"></i>
+      <i id="pause" class="far fa-pause-circle control hidden"></i>
+    </div>
+  </main>
+  <footer>
+    <div id="footer-info">
+      <span>&copy;</span>
+      <span>2022</span>
+      <a href="https://github.com/BerserkBat"><i class="fab fa-github"></i> github</a>
+    </div>
+    <a id="RSS-info" href="https://rs.school/js-stage0/"></a>
+  </footer>
+</body>
+</html>

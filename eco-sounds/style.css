@@ -1,0 +1,196 @@
+:root {
+    --dark-bg: rgba(30, 30, 30, .7);
+    @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;600&display=swap');
+}
+
+html, body, header, main, footer, body, div, p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    background: var(--dark-bg) url("imgs/bg.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0s;
+}
+
+main.day{
+    background: url("imgs/day-0.jpg") no-repeat center;
+    background-size: cover;
+    transition: 0s;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background: var(--dark-bg);
+    position: absolute;
+    top: 0;
+    color: #EEE1B3;
+}
+footer{
+    width: 100vw;
+    height: 70px;
+    background: var(--dark-bg);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#RSS-info{
+    display: inline-block;
+    background: transparent url("imgs/rss-logo.svg") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    margin: 0 5%;
+    transition: 0.5s;
+}
+
+#RSS-info:hover{
+    transform: translatey(-5px);
+}
+
+footer a{
+    color: #EEE1B3;
+    text-decoration: none;
+}
+
+#footer-info{
+    color: #EEE1B3;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0 5%;
+
+}
+
+.button{
+    display: inline-block;
+    height: auto;
+    padding: 10px 3.5%;
+    background: transparent;
+    text-align: center;
+    cursor: pointer;
+    color: #EEE1B3;
+    transition: 0.5s;
+}
+
+.button:hover{
+    color: #D5B748;
+    transition: 0.5s;
+}
+
+.button.sound:hover{
+    color: #D5B748;
+    transition: 0.5s;
+}
+
+.button.sound.active{
+    color: #D5B748;
+    transition: 0.5s;
+}
+
+a{
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #D5B748;
+    transition: 0.5s;
+}
+
+.button.small{
+    padding: 5px 5px;
+    transition: 0.5s;
+}
+
+.hidden{
+    display: none;
+}
+
+#animals-container{
+    display: inline-flex;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 5% 0 0;
+}
+
+#choose-options-container{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin: 0 0 0 5%;
+    background: transparent;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#choose-options-container div{
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control{
+    z-index: 2;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.control:hover{
+    transition: 0.5s;
+    color: #D5B748;
+}
+
+#day-night{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.button.small:hover{
+    transition: 0.5s;
+    color: #D5B748;
+}
+
+.day .active{
+    background-color: #EEE1B3;
+}
+
+#start-btn{
+    padding: 50px;
+    border-radius: 50%;
+
+    transition: 0.5s;
+}
+.sound:hover, .sound:focus{
+    transform: translatey(-5px);
+}
+
+#random:hover, #day-night:hover{
+    transform: translatey(-5px);
+}
+
