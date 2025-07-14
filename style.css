@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
 
 body,
 p,
@@ -15,7 +15,8 @@ li,
 nav {
   padding: 0;
   margin: 0;
-  font-family: "Funnel Sans", sans-serif;
+  font-family: "Cardo", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -23,15 +24,12 @@ a {
   display: inline-block;
 }
 
-header,
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #b33951;
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  justify-content: center;
+footer .contact-link {
+  color: #1e1e18;
+}
+
+footer .contact-link:hover {
+  color: #cecfdf;
 }
 
 main {
@@ -64,6 +62,7 @@ h2 {
   border-bottom: #b33951 2px solid;
   padding: 10px 0;
   text-transform: uppercase;
+  margin: 50px 0 30px 0;
 }
 
 .icon {
@@ -76,9 +75,15 @@ h2 {
 }
 
 .contact-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 15px;
+  padding: 10px 0;
+  transition: 0.5s;
+}
+
+.contact-link:hover {
+  color: #b33951;
 }
 
 a {
@@ -88,9 +93,45 @@ a {
 
 section {
   color: #1e1e18;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-ul {
+.list {
   list-style-type: none;
+}
+
+code {
+  background-color: #cecfdf;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.text-normal {
+  padding: 30px 0;
+}
+
+.list-item {
+  margin: 30px 0 30px;
+}
+
+.text-comment {
+  font-style: italic;
+  margin: 20px 0 40px;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #b33951;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  font-size: 25px;
+  color: #1e1e18;
+  font-weight: 700;
+  font-style: bold;
 }
