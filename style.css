@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 p,
 div,
@@ -134,4 +138,18 @@ footer {
   color: #1e1e18;
   font-weight: 700;
   font-style: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  transition: 0.5s;
+}
+
+.nav-links a:hover {
+  color: #cecfdf;
 }
